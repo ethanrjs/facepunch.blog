@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+    box-sizing: border-box;
+}
+
+/* reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e4dad1;
+    background-color: #1f1f1f;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* general styles */
+
+nav {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+
+    width: 60%;
+    height: 2.5rem;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h1,
+nav ul li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #e4dad1;
+    text-decoration: none;
+    transition: color 125ms ease-in-out;
+    padding: 1rem;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+nav ul li:last-child {
+    background-color: #cd412b;
+}
+
+/* main */
+
+main,
+.hero {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    margin: 0 auto;
+    height: 80%;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    text-align: left;
+}
+
+main h1 {
+    font-size: 4rem;
+    display: block;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+main p {
+    color: #bab1a8;
+    font-size: 1.05rem;
+}
+
+/* select bullet point from main ul and make it #bab1a8 */
+main ul {
+    color: #bab1a8;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+main ul li {
+    padding: 0.5rem;
+    padding-left: 2rem;
+}
+
+main ul li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+main ul li:nth-child(even) {
+    background-color: rgba(228, 218, 209, .05);
+}
+
+main ul li::before {
+    content: '•';
+    color: #bab1a8;
+    display: inline-block;
+    width: 1em;
+}
+
+main b,
+main strong {
+    color: #e4dad1;
+    font-weight: 700;
+}
+
+.features {
+    background: linear-gradient(to right, rgba(93, 114, 57, .4), rgba(93, 114, 57, 0));
+    color: #8ec62f;
+}
+
+.improvements {
+    background: linear-gradient(to right, rgba(215, 170, 12, .4), rgba(215, 170, 12, 0));
+    color: #f5d254;
+}
+
+.fixes {
+    background: linear-gradient(to right, rgba(80, 147, 197, .4), rgba(80, 147, 197, 0));
+    color: #4a90e2;
+}
