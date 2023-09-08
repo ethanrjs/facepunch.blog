@@ -2,28 +2,31 @@ TITLE=AIRBORNE
 TAGLINE=September 2023
 
 [FEATURES]
-Added mandatory in-game advertisements for immersion
-Introduced scent-emitters compatible with Rust; must be bought separately
-Added permadeath: your character will no longer respawn after dying for enhanced realism
-Introduced "Real-Time Crafting" – all crafting times now correspond to real-world timeframes
-Implemented "Unreliable Guns" feature: all guns have a 10% chance to jam or backfire for added suspense
-Added "Blind Spots" in sniper scopes to simulate real-world optical imperfections
-Introduced "Weather Wear" system: equipment now deteriorates 50% faster in rain or snow
+Added new "Apache Attack Helicopter", made to ensure that no solo can ever have fun again
+Added new "Homing Missile Launcher" so that players have a chance to defend themselves from 30 man zergs on vital
+Added new "Flares" to completely fucking ignore our previously mentioned feature
+Added new "Fortnite Simulator" items, to allow you to drop from scrap helicopters into Dusty Divot. We've decided to call these items "Parachutes"
+Added armor to hot air balloons, for some ungodly fucking reason. As if anyone would want to shoot them down. You can't lock them though, we spent too much time working on the pay-to-win weapon racks to add locks.
+You can now see bases from 1500 meters away. This allows you to make sure that your stupidly fucking overpowered helicopter goes down even less from SAM sites.
+Added new pay-to-win weapon racks, allowing clans to roam with 8 aks per person with zero reloads.
 
 [IMPROVEMENTS]
-Improved nighttime darkness: screen goes completely black for a more realistic night experience
-Enhanced hunger and thirst system: players now need to consume food and water every 15 minutes to survive
-Increased bear speed by 200% to mimic real-life bear agility
-Reduced in-game map accuracy to simulate the difficulty of navigating in the wilderness
-Doubled building decay rate to encourage more active gameplay
-Updated "Encumbrance System": carrying more than 30% of your weight limit will now reduce your speed by 70%
-Enhanced "Audio Distraction": in-game music now plays at random intervals to simulate the unpredictability of the wilderness
+Pumpjacks and quarries look slightly different. Maybe people will start to use pumpjacks finally
+Balloons need less fuel. We really want you to use the fucking hot air balloon
+Made furnaces less fun to look at
+Fluid switch and pump now stacks in the inventory. To whomever filed this issue, why the fuck are you stacking these items
+Made learned blueprints information more transparent so you fucking idiots finally understand why you can't learn them
+We now push boats back to shore when they're left idle so people can stop milking living in tugboat videos.
+We are finally discontinuing support for windows 8.1. I don't think anyone gives a shit, considering a whole 3 people in the entire world use this operating system. But we need to pad out our improvements section.
+Get ready to only watch Coma and Dust twitch streams, because they are the only good looking twitch drops. If you're watching jennifer, we are silently judging you
+Added completely fucking useless information about how many times salvaged hammers were researched
 
 [FIXES]
-Fixed the issue where players could carry unlimited items; inventory is now limited to 5 slots to encourage teamwork
-Fixed the "Too Easy" problem: all enemies now have triple health and damage
-Fixed the unrealistically quick health regeneration; health now regenerates at 0.1% per hour
-Fixed the problem where players could easily find each other; usernames and markers are now hidden
-Fixed the issue where players could run indefinitely; stamina now depletes twice as quickly and takes twice as long to recover
-Fixed the unrealistic building stability; structures now have a 20% chance to collapse when built
-Fixed the issue where bullets would always travel in a straight line; bullets now follow a random trajectory for more realistic physics
+Fixed issue with solos having fun on Rust
+Fixed having fun with hot air balloons by making them decay faster when stuck
+Patrol helicopter is now even harder to tag. We fucking HATE solo players
+Fixed an issue maybe one person cared about in the entire world, and that was the developer who worked on it (Chinook particles)
+Fixed a buggy ass issue with placing items, yet again. This time, with elevators
+I genuinely, with all of my brain power, cannot comprehend how mounting a missile silo computer station instantly fucking kills you. I have thought about this for an hour. ???????
+Fixed building tiers leaving the menu when you set to a building skin so that we can try to convince you harder that you didn't waste your money
+Fixed nudity inside smoke. Don't even know what the programming logic is on that bug but it was a bug
