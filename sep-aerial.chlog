@@ -1,0 +1,29 @@
+TITLE=Reality Restructure Update
+TAGLINE=September 2023
+
+[FEATURES]
+Added mandatory in-game advertisements for immersion
+Introduced scent-emitters compatible with Rust; must be bought separately
+Added permadeath: your character will no longer respawn after dying for enhanced realism
+Introduced "Real-Time Crafting" – all crafting times now correspond to real-world timeframes
+Implemented "Unreliable Guns" feature: all guns have a 10% chance to jam or backfire for added suspense
+Added "Blind Spots" in sniper scopes to simulate real-world optical imperfections
+Introduced "Weather Wear" system: equipment now deteriorates 50% faster in rain or snow
+
+[IMPROVEMENTS]
+Improved nighttime darkness: screen goes completely black for a more realistic night experience
+Enhanced hunger and thirst system: players now need to consume food and water every 15 minutes to survive
+Increased bear speed by 200% to mimic real-life bear agility
+Reduced in-game map accuracy to simulate the difficulty of navigating in the wilderness
+Doubled building decay rate to encourage more active gameplay
+Updated "Encumbrance System": carrying more than 30% of your weight limit will now reduce your speed by 70%
+Enhanced "Audio Distraction": in-game music now plays at random intervals to simulate the unpredictability of the wilderness
+
+[FIXES]
+Fixed the issue where players could carry unlimited items; inventory is now limited to 5 slots to encourage teamwork
+Fixed the "Too Easy" problem: all enemies now have triple health and damage
+Fixed the unrealistically quick health regeneration; health now regenerates at 0.1% per hour
+Fixed the problem where players could easily find each other; usernames and markers are now hidden
+Fixed the issue where players could run indefinitely; stamina now depletes twice as quickly and takes twice as long to recover
+Fixed the unrealistic building stability; structures now have a 20% chance to collapse when built
+Fixed the issue where bullets would always travel in a straight line; bullets now follow a random trajectory for more realistic physics
